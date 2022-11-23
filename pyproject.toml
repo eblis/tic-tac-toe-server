@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tic-tac-toe"
+version = "0.1.0"
+description = ""
+authors = ["Cristian Libotean <eblis102@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+Kivy = {extras = ["base", "sdl2"], version = "^2.1.0"}
+psutil = "^5.9.1"
+pyinstaller = "^5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
